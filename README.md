@@ -1,12 +1,13 @@
 # Computational-Linear-Algebra
 Numerical methods associated with matrices. This repo consists of:
-#1. Method for solving linear systems:
+
+# 1. Method for solving linear systems:
 
 Using LU decomposition, Cholesky Factorization and forward and backwards solves for dense and banded matrices. Also includes a method for creating a 2D Laplacian matrix. Below is an image of a meshplot showing the heat flow with 2 heat sources
 
 ![meshplot](https://user-images.githubusercontent.com/63682861/129399694-dca56b80-88a2-48b4-b1c1-7a1f53e8fc38.jpg)
 
-#2. Image Denoising: 
+# 2. Image Denoising: 
 
 By solving linear systems derived from the discretization of a partial differential equation using iterative methods such as Gauss Siedel, Jacobi, SOR and Conjugate Gradient method.
 
@@ -18,7 +19,7 @@ And the denoised image:
 
 ![128_image](https://user-images.githubusercontent.com/63682861/129400616-420cb6a1-72df-4fcd-adc6-ae9e6ade1fb8.jpg)
 
-#3. Iterative Methods for solving the EigenValue Problem:
+# 3. Iterative Methods for solving the EigenValue Problem:
 
 Iterative Methods known for solving the eigenvalue problem are:
 
@@ -41,7 +42,7 @@ Image of all eigenvectors from QR Iteration:
 ![QR iteration all eigenvalues](https://user-images.githubusercontent.com/63682861/129401542-9038b065-f587-4235-a5e9-bf774dc0a629.jpg)
 
 
-#4. Specteral Clustering:
+# 4. Specteral Clustering:
 
 Image segmentation was performed by generating the weight matrix and forming the normalized graph Laplacian. The smallest magnitude eigenvalues and eigenvectors pairs were extracted from the normalized graph Laplacian and passed in to the kmeans clustering algorithm. 
 
